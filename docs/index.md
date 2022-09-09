@@ -1,3 +1,5 @@
+[English PDF version](pdf/doc-en.pdf)
+
 # Getting Started
 
 So you have a project in mind, and it requires collecting data using mobile phones. Or maybe you already started collecting data, but your pen and paper method is showing its limits. And on top of that, your experience of mobile data collection is close to zero. Have no fear! You’ve arrived at the right place.  

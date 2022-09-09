@@ -1,3 +1,5 @@
+[Versión PDF Español ](pdf/doc-es.pdf)
+
 # Comenzando
 
 Asi que tienes un proyecto en mente xxxxxxx xx xxxx xxx.  
