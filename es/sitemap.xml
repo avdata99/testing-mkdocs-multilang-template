@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://avdata99.github.io/testing-mkdocs-multilang-template/index.html</loc>
+         <lastmod>2022-09-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://avdata99.github.io/testing-mkdocs-multilang-template/pm.html</loc>
+         <lastmod>2022-09-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://avdata99.github.io/testing-mkdocs-multilang-template/survey-designer.html</loc>
+         <lastmod>2022-09-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://avdata99.github.io/testing-mkdocs-multilang-template/trainer.html</loc>
+         <lastmod>2022-09-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://avdata99.github.io/testing-mkdocs-multilang-template/acerca-de/generales.html</loc>
+         <lastmod>2022-09-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://avdata99.github.io/testing-mkdocs-multilang-template/acerca-de/licencia.html</loc>
+         <lastmod>2022-09-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
