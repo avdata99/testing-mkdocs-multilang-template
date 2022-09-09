@@ -1,0 +1,33 @@
+name: Publish docs via GitHub Pages
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Deploy docs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+      - name: Copy assets
+        run: |
+          cp -R assets docs/assets
+          cp -R assets docs-es/assets
+      - name: Deploy docs
+        uses: avdata99/mkdocs-deploy-gh-pages@master
+        # mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
+        # mhausenblas/mkdocs-deploy-gh-pages@master to build with the mkdocs-material theme
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONFIG_FILES: mkdocs-es.yml mkdocs-en.yml
+          # EXTRA_PACKAGES is for the apk add command of Alpine Linux before running pip install
+          EXTRA_PACKAGES: |
+            build-base libxml2-dev libxslt-dev libffi-dev gcc musl-dev libgcc
+            openssl-dev curl jpeg-dev zlib-dev freetype-dev lcms2-dev openjpeg-dev
+            tiff-dev tk-dev tcl-dev py3-pip py3-pillow py3-cffi py3-brotli
+            python3-dev pango g++
+          # CUSTOM_DOMAIN: optionaldomain.com
+          # GITHUB_DOMAIN: github.myenterprise.com
+          REQUIREMENTS: requirements.txt
