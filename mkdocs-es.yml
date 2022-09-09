@@ -1,10 +1,9 @@
 # mkdocs config https://www.mkdocs.org/user-guide/configuration/#configuration
 
-site_name: !ENV [SITE_NAME, 'My site name']
-site_url: https://avdata99.github.io/test-mkdocs/
+site_name: !ENV [SITE_NAME, 'Guía fácil para la recolección en datos en móviles']
+site_url: https://avdata99.github.io/testing-mkdocs-multilang-template/
 site_description: |
   This is the site description
-  (a test version)
 site_author: Andres andres@data99.com.ar
 site_dir: site/es
 use_directory_urls: false
@@ -12,16 +11,18 @@ docs_dir: docs-es
 
 copyright: Creative commons BY-SA. No rigths reserved @avdata99
 
-repo_url: https://github.com/avdata99/test-mkdocs
+repo_url: https://github.com/avdata99/testing-mkdocs-multilang-template
 edit_uri: edit/main/docs
 
 nav:
     - Inicio: index.md
+    - Administrador de proyecto: pm.md
+    - Diseñador de la encuesta: survey-designer.md
+    - Entrenador: trainer.md
     - Acerca de: 
         - General: acerca-de/generales.md
         - Licencia: acerca-de/licencia.md
-    - Pagina de prubas: pagina-pruebas.md
-    - Reportar errores: https://github.com/avdata99/test-mkdocs/issues
+    - Reportar errores: https://github.com/avdata99/testing-mkdocs-multilang-template/issues
 
 # theme: readthedocs
 theme: 
@@ -95,13 +96,13 @@ extra:
     scoda_url: https://schoolofdata.org
     # TODO do nt work on MD files, onlye HTML :(
     # Maybe this plugin https://github.com/rosscdh/mkdocs-markdownextradata-plugin
-    assets_folder: /test-mkdocs/es/assets
+    assets_folder: /testing-mkdocs-multilang-template/es/assets
     alternate:
         - name: English
-          link: /test-mkdocs
+          link: /testing-mkdocs-multilang-template
           lang: en
         - name: Español
-          link: /test-mkdocs/es/index.html  # TODO
+          link: /testing-mkdocs-multilang-template/es/index.html  # TODO
           lang: es
 
 markdown_extensions:

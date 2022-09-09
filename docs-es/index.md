@@ -1,31 +1,30 @@
-# Bienvenido a la prueba de MkDocs
+# Comenzando
 
-Una version de este documento esta disponible en formato PDF [here](pdf/doc-es.pdf).
+Asi que tienes un proyecto en mente xxxxxxx xx xxxx xxx.  
 
-## Prueba de codigo fuente
+Xxxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx
+xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx.  
 
-Algo de código Python
+Xxxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx
+xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx.  
 
+Xxxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx
+xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx.  
 
-``` py title="Un poco de Python" linenums="1"
-test = True
-if test:
-    print('Test ok')
-```
+![test image](/testing-mkdocs-multilang-template/assets/img/cordoba-rio.jpg)
 
-Algo de JS
+## Cuando, donde y cómo
 
-``` js title="codigo-app.js"
-test = true;
-if (test == true):
-    console.log('Test ok');
-```
+Xxxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx
+xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx.  
 
-## Prueba de imagen
+## Definiendo tuequipo
 
-<img class="cordoba-river-imag"
-    src="/test-mkdocs/es/assets/img/cordoba-rio.jpg" alt="Cordoba river"
-    title="Cordoba river"
-    style="float: left; width: 150px; padding: 14px; margin: 14px; border: 2px solid red"/> 
+Xxxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx
+xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx.  
 
-Esta imagen tiene estilos diferentes para las versiones HTML y PDF.  
+Xxxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx
+xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx.  
+
+Xxxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxx xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx
+xxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxxxxxxxxx xx xxxx xxx.  
